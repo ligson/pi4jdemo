@@ -13,8 +13,10 @@ public class Demo1 {
 		// set shutdown state for this pin
         pin.setShutdownOptions(true, PinState.LOW);
         Thread.sleep(5000);
+        System.out.println("low....");
         pin.low();
         Thread.sleep(5000);
+        System.out.println("high....");
         pin.high();
         Thread.sleep(5000);
         controller.shutdown();
