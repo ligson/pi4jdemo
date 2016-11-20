@@ -9,7 +9,7 @@ import com.pi4j.io.gpio.RaspiPin;
 public class Demo1 {
 	public static void main(String[] args) throws Exception{
 		GpioController controller = GpioFactory.getInstance();
-		GpioPinDigitalOutput pin = controller.provisionDigitalOutputPin(RaspiPin.GPIO_21,PinState.HIGH);
+		GpioPinDigitalOutput pin = controller.provisionDigitalOutputPin(RaspiPin.GPIO_29,PinState.HIGH);
 		// set shutdown state for this pin
         pin.setShutdownOptions(true, PinState.LOW);
         Thread.sleep(5000);
