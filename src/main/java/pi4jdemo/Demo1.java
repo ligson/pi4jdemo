@@ -33,7 +33,7 @@ import com.pi4j.io.gpio.RaspiPin;
  * +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+
  * | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |
  * +-----+-----+---------+------+---+---Pi 3---+---+------+---------+-----+-----+
- * @author ligso
+ * @author ligson
  *
  */
 public class Demo1 {
